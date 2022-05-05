@@ -89,4 +89,5 @@ export interface ConnectionOptions {
    * 3600 seconds are rarely necessary or useful.
    */
   clientSessionKeepAliveHeartbeatFrequency?: number;
+  timeout?: number;
 }
